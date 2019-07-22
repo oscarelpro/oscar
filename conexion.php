@@ -1,11 +1,10 @@
 <?php
+$dbconn3 = pg_connect("host=localhost port=5432 dbname=nenss user=postgres password=12345678");
 
 
-echo "esto es una prueba";
-
-
-
-
-echo"pruebas numero dos";
-
+if($bdconn3){
+    echo"bien hecho";
+}else{
+    echo"malll";
+}
 ?>
